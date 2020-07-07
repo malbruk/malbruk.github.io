@@ -6,7 +6,7 @@
 const styleConfig = {
   /* Fonts
     ========================================= */
-  fontMain: `'IBM Plex Sans'`,                // Main Font
+  fontMain: `'Rubik'`,//`'IBM Plex Sans'`,                // Main Font
   fontProfile: `'Oxanium'`,                   // Font inside profile
   fontCodeBlocks: `Menlo, Monaco, monospace`, // Font for code blocks
 

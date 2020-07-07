@@ -49,6 +49,7 @@ $base6: #e48080;
   padding-top: 0;
   overflow: auto;
   border: 1px solid #817182;
+  direction: ltr;
 }
 
 @mixin cornerText($content, $error: -1) {

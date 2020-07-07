@@ -66,8 +66,8 @@ const bgColorDark = {
 
 const StyledTextBlock = styled.div`
   position: relative;
-  border-left-width: 3px;
-  border-left-style: solid;
+  border-right-width: 3px;
+  border-right-style: solid;
   margin: 2rem 1rem;
   border-radius: 5px;
   padding: ${({ padding }) => padding};
@@ -84,7 +84,7 @@ const StyledTextBlock = styled.div`
 const StyledIconWrap = styled.div`
   position: absolute;
   top: -1.5rem;
-  left: -1.5rem;
+  right: -1.5rem;
   background: ${() => setThemeVars(theme.bgColorLight, theme.bgColorDark)};
   padding: 0.5rem;
   border-radius: 50%;

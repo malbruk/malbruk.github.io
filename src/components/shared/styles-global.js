@@ -86,7 +86,8 @@ export const GlobalStyles = createGlobalStyle`
     background: ${() =>
       setThemeVars(theme.bgSubColorLight, theme.bgSubColorDark)};
     color: ${foregroundColor};
-    font-family: ${configStyles.fontMain + configStyles.fontsBackUp}
+    font-family: ${configStyles.fontMain + configStyles.fontsBackUp};
+    direction: rtl;
   }
 
   header,
@@ -188,6 +189,10 @@ export const GlobalStyles = createGlobalStyle`
     background: ${() => setThemeVars(theme.bgColorLight, theme.bgColorDark)}
   }
 
+  img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
   .img-not-gatsby-remark {
     width:100%;
     height:100%;
@@ -284,7 +289,7 @@ export const GlobalStyles = createGlobalStyle`
     blockquote {
       color: ${() =>
         setThemeVars(theme.fontSubColorLight, theme.fontSubColorDark)};
-      border-left: 3px solid ${() =>
+      border-right: 3px solid ${() =>
         setThemeVars(theme.midGreyColor, theme.midColor)};
     }
   }

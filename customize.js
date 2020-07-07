@@ -4,19 +4,19 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
-  description: `This is my blog`,     // Site description
+  title: `מברוק - בלוג על קוד ופיתוח`,          // Displayed in header
+  description: `בלוג על קוד ופיתוח`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://mabruk.site/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
-  ========================================= */
-  author: `Author Name`,                             // Name shows on profile
-  profileDescription: "{Edit me in customize.js}",   // Shows under author name
-  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
-  location: "",                                      // Location under profileDescription. "" --> disabled
+    ========================================= */
+  author: `mabruk`,                             // Name shows on profile
+  profileDescription: "developer",   // Shows under author name
+  profileImageName: `profile.png`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  location: "Israel",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
   /* Social Media Links
@@ -24,23 +24,23 @@ const config = {
       showHeaderIcon: shows social media icon in header. When true, must have account name set
   ========================================= */
   socialMediaLinks: {
-    email:     { emailAddress: "", showHeaderIcon: true },
-    github:    { accountName: "", showHeaderIcon: true },
-    facebook:  { accountName: "", showHeaderIcon: true },
-    instagram: { accountName: "", showHeaderIcon: true },
-    twitter:   { accountName: "", showHeaderIcon: true },
-    linkedIn:  { accountName: "", showHeaderIcon: true },   // Use URL after "linkedin.com/"
-    medium:    { accountName: "", showHeaderIcon: true },   // Use URL after "medium.com/@"
+    email:     { emailAddress: "mabruk2code@gmail.com", showHeaderIcon: true },
+    github:    { accountName: "malbruk", showHeaderIcon: true },
+    facebook:  { accountName: "", showHeaderIcon: false },
+    instagram: { accountName: "", showHeaderIcon: false },
+    twitter:   { accountName: "", showHeaderIcon: false },
+    linkedIn:  { accountName: "", showHeaderIcon: false },   // Use URL after "linkedin.com/"
+    medium:    { accountName: "", showHeaderIcon: false },   // Use URL after "medium.com/@"
   },
 
   /* Social Media Share Buttons--available below every post
   ========================================= */
-  shareButtons: { email: false, facebook: true, twitter: true, reddit: false, linkedIn: false },
+  shareButtons: { email: true, facebook: false, twitter: false, reddit: false, linkedIn: false },
 
   /* Comments
   ========================================= */
   comments: {
-    facebook: { enabled: true, appId: "" },      // appId: optional, but used to moderate fb comments
+    facebook: { enabled: false, appId: "" },      // appId: optional, but used to moderate fb comments
     disqus: { enabled: false, shortName: "" },   // Check your shortName on https://disqus.com
     utterances: { enabled: false, repoUrl: "" }, // i.e. 'ellismin/gatsby-blog-mdx'
   },
