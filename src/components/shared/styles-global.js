@@ -151,7 +151,7 @@ export const GlobalStyles = createGlobalStyle`
 
   .sub-main {
     -webkit-box-shadow: 0px 0px 8px -5px ${() =>
-      setThemeVars("#000000bf", "#000000bf")};
+      setThemeVars("#000000bf", "rgba(0,0,0,0.75)")};
     -moz-box-shadow: 0px 0px 8px -5px ${() =>
       setThemeVars("#000000bf", "#000000bf")};
     box-shadow: 0px 0px 8px -5px ${() =>

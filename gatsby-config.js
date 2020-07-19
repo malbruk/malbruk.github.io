@@ -110,7 +110,6 @@ module.exports = {
               className: `anchor-heading`,
             },
           },
-
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -118,6 +117,21 @@ module.exports = {
               backgroundColor: `transparent`,
               linkImagesToOriginal: false,
             },
+          },
+          {
+            resolve: `gatsby-transformer-remark`,
+            options: {
+              plugins: [
+                {
+                  resolve: 'gatsby-remark-emoji', // <-- this adds emoji
+                  options: {
+                    emojiConversion: 'shortnameToUnicode',
+                    // e.g. ;) --> 😉
+                    ascii: false,
+                  }
+                },
+              ]
+            }
           },
         ],
       },

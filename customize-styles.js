@@ -52,6 +52,7 @@ const styleConfig = {
   progressBarColorDark: "#838da4",
 
   /* To customize code blocks, modify /src/components/Code/styles/* */
+
 }
 
 module.exports = styleConfig
