@@ -5,7 +5,6 @@ import ArrowDown from "../../../../_assets/icons/arrow-down.svg"
 import Button from "../../Button"
 import { setThemeVars } from "../../../util/theme-helper"
 import { theme } from "../../Shared/styles-global"
-
 let sizeType = "rem"
 
 const Collapsable = ({

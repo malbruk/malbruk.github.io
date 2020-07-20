@@ -32,6 +32,7 @@ import {
   Collapsable,
   U,
 } from "../../MdxComponents"
+import LikeButton from "../../LikeButton"
 
 class PostTemplate extends React.Component {
   constructor(props) {
@@ -255,6 +256,7 @@ class PostTemplate extends React.Component {
                       ))}
                   </div>
                 </div>
+                <LikeButton itemId={post.name}></LikeButton>
                 <p
                   style={{
                     fontStyle: "italic",
