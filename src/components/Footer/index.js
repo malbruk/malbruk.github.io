@@ -21,11 +21,11 @@ const Footer = () => {
         , Built with
         {` `}
         <StyledA
-          href="https://github.com/EllisMin/gatsby-blog-mdx"
+          href="https://www.gatsbyjs.org/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          gatsby-blog-mdx
+          gatsby
         </StyledA>
       </div>
       <Link to="/rss.xml">
@@ -45,6 +45,7 @@ const StyledFooter = styled.footer`
   font-size: 0.9rem;
   margin-top: 1rem;
   padding: 1rem;
+  direction: ltr;
   
   @media(max-width: 500px){
     font-size: 0.77rem;

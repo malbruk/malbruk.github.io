@@ -20,6 +20,7 @@ import "./styles.scss"
 const ShareButtons = ({ location }) => {
   return (
     <div className="share-buttons-wrap">
+      אהבתם? שתפו אותי!
       {config.shareButtons.email && (
         <EmailShareButton url={location}>
           <EmailIcon round size={32} />
